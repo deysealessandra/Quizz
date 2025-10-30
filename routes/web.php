@@ -7,3 +7,5 @@ use App\Http\Controllers\PerguntaController;
 Route::get('/', [PerguntaController::class, 'inicio'])
     ->name('inicio');
 
+Route::get('/responder', [PerguntaController::class, 'responder'])
+    ->name('responder');

@@ -1,5 +1,8 @@
 <?php
 
+namespace Database\Seeders;
+
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Pergunta;
 
@@ -34,7 +37,7 @@ class PerguntasSeeder extends Seeder
         ]);
 
         Pergunta::create([
-            'texto' => 'Qual é o gênero musical da banda Sorriso Maroto"?',
+            'texto' => 'Qual é o gênero musical da banda Sorriso Maroto?',
             'opcao_a' => 'Samba',
             'opcao_b' => 'K-pop',
             'opcao_c' => 'Pagode',
